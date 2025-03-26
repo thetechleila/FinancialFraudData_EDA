@@ -21,9 +21,7 @@ ___
 
 * **Visualizations:** detailed visualizations of the finanical transaction data including distribution plots, box plots, violin plots, etc.
 
-* **Model Evaluation:** Creating train-test-splits followed by implementation of 2 supervised learning methods. Hyperparameter tuning follows after the training  of the initial classifer via Random Search.
-
-The F1 Score and visualizations are utilized to compare and assess model performances after determining optimal hyperparameters and generating new predictions.
+* **Model Evaluation:** Creating train-test-splits followed by implementation of 2 supervised learning methods. Hyperparameter tuning follows after the training  of the initial classifer via Random Search. The F1 Score and visualizations are utilized to compare and assess model performances after determining optimal hyperparameters and generating new predictions.
 
 * **Linear Regression:** Implemented to understand the linear relationships between the target variable and predictor variables & the linear relationships among other features.
 
