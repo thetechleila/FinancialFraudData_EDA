@@ -46,9 +46,9 @@ ___
 
 * **NewBalanceOrg:** The origin accounts balance after the transaction 
 
-* **OldbalanceDest:** The destination accounts balance before the transaction 
+* **OldbalanceDest:** The destination account's balance before the transaction 
 
-* **NewbalanceDest:** The destination accounts balance after the transaction 
+* **NewbalanceDest:** The destination account's balance after the transaction 
 
 * **IsFlaggedFraud:** A “naive” model that simply flags a transaction as fraudulent if it is greater than 200,000 (note that this currency is not USD) 
 
