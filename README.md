@@ -36,21 +36,15 @@ ___
 * Statsmodels for statistical data exploration
 
 ___
-## Variables
+## Numerical Variables
 
 * **Step:** A unit of time that represents hours in the dataset.
 
-* **Type:** The type of transaction 
-
 * **Amount:** The amount of money transferred 
-
-* **NameOrig:** The origin account name
 
 * **OldBalanceOrg:** The origin accounts balance before the transaction 
 
 * **NewBalanceOrg:** The origin accounts balance after the transaction 
-
-* **NameDest:** The destination account name 
 
 * **OldbalanceDest:** The destination accounts balance before the transaction 
 
@@ -59,3 +53,12 @@ ___
 * **IsFlaggedFraud:** A “naive” model that simply flags a transaction as fraudulent if it is greater than 200,000 (note that this currency is not USD) 
 
 * **IsFraud:** Was this simulated transaction actually fraudulent? In this case, we consider “fraud” to be a malicious transaction that aimed to transfer funds out of a victim’s bank account before the account owner could secure their information. 
+
+___
+## Categorical Variables
+
+* **Type:** The type of transaction 
+
+* **NameOrig:** The origin account name
+
+* **NameDest:** The destination account name 
